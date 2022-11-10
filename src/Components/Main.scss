@@ -1,0 +1,79 @@
+@import "./Variables.scss";
+header {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $secondary;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    .mainMenu {
+      display: flex;
+      gap: 1rem;
+
+      li {
+        list-style: none;
+        a {
+          color: $off-white;
+          font-size: 16px;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .img {
+      width: 30px;
+      height: 30px;
+      margin: 12.58px 0;
+    }
+
+    .nav-right {
+      display: flex;
+      gap: 1rem;
+      color: $off-white;
+      button {
+        background-color: $primary2;
+        border: none;
+        color: $white;
+      }
+    }
+  }
+}
+.Hero-section {
+  color: white;
+  .container-1 {
+    background: url(../../public/assets/hero-image/Hero.png) no-repeat;
+    display: grid;
+    align-items: flex-end;
+    min-height: 80vh;
+    background-size: 100%;
+    .icons {
+      margin-left: 70px;
+      gap: 30px;
+      color: $white;
+    }
+  }
+  .rectangle-container1 {
+    padding: 2em;
+    background: $primary2;
+    width: 70%;
+
+    color: white;
+
+    .rect-heroActive {
+      .search {
+        form {
+          align-items: center;
+          input {
+            height: 100%;
+          }
+        }
+        button &-field {
+          flex: 1;
+        }
+      }
+    }
+  }
+}

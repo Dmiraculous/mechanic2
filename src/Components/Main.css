@@ -1,0 +1,52 @@
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+header nav .mainMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav .mainMenu li {
+  list-style: none;
+}
+
+header nav .mainMenu li a {
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header nav .img {
+  width: 30px;
+  height: 30px;
+  margin: 12.58px 0;
+}
+
+header nav .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  color: #fafafa;
+}
+
+header nav .nav-right button {
+  background-color: #262626;
+  border: none;
+  color: #ffffff;
+}
+/*# sourceMappingURL=Main.css.map */
